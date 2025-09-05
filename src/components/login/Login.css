@@ -1,0 +1,91 @@
+:root{
+  --lightblue: #b4dee6;
+  --dark: #070512;
+}
+
+body {
+  background-image: url('../s1.webp');
+ 
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+.login-container {
+  max-width: 500px;
+  padding: 20px;
+  border: 1.5px solid var(--dark);
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background: transparent;
+  color: var(--dark);
+  backdrop-filter: blur(5px);
+  display: flex;
+  flex-direction: column;
+  
+}
+
+
+input::placeholder {
+  color: var(--dark);
+  opacity: 1;
+  font-weight: bold;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.form-group {
+  margin-bottom: 25px;
+  background: transparent;
+}
+
+label {
+  display: block;
+  background: transparent;
+  font-weight: bold;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  border: 1.5px solid var(--dark);
+  border-radius: 4px;
+  background: transparent;
+}
+
+button {
+  width: 10vw;
+  padding: 10px;
+  color: var(--dark);
+  border: 1.5px solid var(--dark);
+  border-radius: 4px;
+  cursor: pointer;
+  background: transparent;
+  font-weight: bold;
+  margin-top: 40px;
+}
+
+button:hover {
+  opacity: 0.2;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.spacer {
+  flex-grow: 1;
+}
+
+
+

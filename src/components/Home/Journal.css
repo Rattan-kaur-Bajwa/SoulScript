@@ -1,0 +1,55 @@
+:root {
+  --lightblue: #b4dee6;
+  --dark: #070512;
+}
+
+.tab {
+  height: 100vh;
+}
+
+.table {
+  margin-top: 20vh;
+  margin-left: 50px;
+  height: 80%;
+  width: 80%;
+  border-collapse: separate;
+  border-spacing: 0 20px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  /* padding: 10px; */
+  color: var(--lightblue);
+}
+
+.table th,
+.table td {
+  border-radius: 3px;
+  border: 1px solid var(--lightblue);
+  padding: 8px;
+}
+
+
+.table th {
+  text-align: left;
+}
+
+.table tr {
+  background-color: var(--dark);
+  opacity: 0.8;
+  border-radius: 7px;
+  border: 1px solid var(--lightblue);
+}
+
+
+.actions button {
+  min-width: 75px;
+  padding: 5px 10px;
+  border-radius: 3px;
+  background-color: var(--lightblue);
+  color: var(--dark);
+  cursor: pointer;
+}
+
+.actions button:hover {
+  background-color: var(--dark);
+  color: var(--lightblue);
+}

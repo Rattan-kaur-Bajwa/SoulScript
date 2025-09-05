@@ -1,0 +1,51 @@
+/* NewEntry.css */
+:root {
+    --lightblue: #b4dee6;
+    --dark: #070512;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Adjust height as needed */
+  }
+  
+  .text {
+    height: 50vh;
+    width: 80vw; /* Adjust width as needed */
+    border: 1px solid var(--lightblue);
+    border-radius: 7px;
+    padding: 10px;
+    margin-top: 15vh;
+    backdrop-filter: blur(5px);
+    background-color: var(--dark);
+    opacity: 0.8;
+    color: var(--dark);
+    font-weight: bold;
+    font-size: larger;
+  }
+  
+  textarea {
+    width: 100%; /* Ensure textarea takes up full width of its container */
+    height: 100%;
+    border: none;
+    background: none;
+    color: var(--lightblue);
+    font-weight: bold;
+    font-size: larger;
+    resize: vertical; /* Allow vertical resizing if needed */
+  }
+  
+  textarea::placeholder {
+    color: var(--lightblue);
+    opacity: 1;
+    font-weight: bold;
+    font-size: larger;
+  }
+  
+  button{
+    width: 20%;
+    color: var(--lightblue);
+  }
+  
