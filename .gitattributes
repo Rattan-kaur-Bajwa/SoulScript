@@ -1,0 +1,6 @@
+# Ignore Python-looking folders
+environ/* linguist-vendored
+instance/* linguist-vendored
+
+# You can also ignore JSON and lock files if they skew results
+package-lock.json linguist-vendored
